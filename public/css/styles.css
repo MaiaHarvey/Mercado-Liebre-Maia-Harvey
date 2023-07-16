@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+*{
+    margin: 0 px ;
+    padding: 0 px ;
+    font-family: 'roboto';
+    box-sizing: border-box;
+}
+
+main{
+    width: 90vw;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+
+body {
+    background-color: #ebebeb;
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1,5em;
+    text-align: center;
+    color: #666;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoarticulo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip
+}
+.articulos{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: content-box;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+
+.banner{         
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    padding-bottom: 20px;  
+    display: block;
+}
+
+
+.input {
+    font-size: 1rem;
+    width: 50%;
+    border-radius: 5px;
+    display: block;
+}
+button{
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+}
+
+#lupa {
+  
+    background-color: aliceblue;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    color: #666;
+    padding: 80px;
+    background-color: white;
+}
+
+
+.precios {
+    font-size: 1.125em;
+}
+.descuentos {
+    font-size: 1em;
+    color: greenyellow;
+}
+header {
+    background-color: #EAC926;
+    padding-bottom: 30;
+    width: 100%;    
+}
+
+nav {
+    font-size: 12px;
+    text-decoration: none;
+}
+.doce {
+    font-size: 0.75em;
+}
+li, a {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+#cuotas {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.burger-menu {
+        color: aliceblue;
+        background-color: #1259c3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13vw;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 2em;
+        padding: 2%;
+        border-radius: 12%;
+}
+.sectionfooter {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footerIcon {
+    color: #1259c3;
+    font-size: 100px;
+}
