@@ -1,6 +1,7 @@
 const express = require ('express');
 const app = express();
 const path = require('path');
+const dotenv = require('dotenv').config();
 
 const publicPath = path.resolve (__dirname, './public');
 app.use (express.static(publicPath));
@@ -13,11 +14,11 @@ app.get ('/', (req , res) => {
 });
 
 
-
-
-app.listen (3001,() => {
-    console.log ('Servidor escuchando en el puerto 3001')
+app.listen (process.env. PORT,() => {
+    console.log ('Servidor escuchando en el puerto' + process.env.PORT);
 });
 
-const port = process.env.PORT || 3001;
-app.listen(port,()=> console.log('servidor corriendo en el puerto ${port}'));
+
+
+
+
